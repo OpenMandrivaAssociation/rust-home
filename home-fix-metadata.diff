@@ -1,0 +1,9 @@
+--- home-0.5.3/Cargo.toml	2020-01-07T12:03:40+00:00
++++ home-0.5.3/Cargo.toml	2020-01-07T17:34:33.293414+00:00
+@@ -21,6 +21,3 @@
+ readme = "README.md"
+ license = "MIT OR Apache-2.0"
+ repository = "https://github.com/brson/home"
+-[target."cfg(windows)".dependencies.winapi]
+-version = "0.3"
+-features = ["shlobj", "std", "winerror"]
